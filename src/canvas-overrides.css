@@ -1,0 +1,68 @@
+.d3-svg-canvas-div {
+  background-color: transparent;
+}
+
+.d3-svg-background {
+  fill: transparent;
+}
+
+.d3-node-body-outline {
+  stroke: var(--color-btn-border);
+  stroke-width: 1;
+  fill: var(--color-btn-bg);
+  filter: none !important;
+}
+
+.d3-node-body-outline[hover="yes"] {
+  stroke: var(--color-btn-hover-border);
+  stroke-width: 1;
+  fill: var(--color-btn-hover-bg);
+}
+
+.d3-data-link {
+  stroke: var(--color-text-link) !important;
+  stroke-width: 2;
+}
+
+.d3-comment-link {
+  stroke: var(--color-border-primary) !important;
+  /* stroke: var(--color-border-secondary) !important; */
+  stroke-width: 2 !important;
+  stroke-dasharray: 7.3 !important;
+}
+
+.d3-comment-rect {
+  fill: var(--color-bg-primary);
+  stroke: var(--color-border-secondary) !important;
+  stroke-width: 1;
+  rx: 6;
+}
+
+.d3-node-label {
+  font-size: 12px;
+  font-weight: 400;
+  fill: var(--color-text-primary);
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace !important;
+}
+
+.d3-comment-text-tspan {
+  font-size: 14px;
+  font-weight: 400;
+  fill: var(--color-text-secondary);
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.d3-comment-sizing,
+.d3-comment-port-circle,
+.d3-node-selection-highlight,
+.d3-comment-selection-highlight,
+.d3-node-port-input,
+.d3-node-port-output,
+.d3-node-port-input-arrow,
+.d3-node-ellipsis-group,
+.d3-new-connection-line,
+.d3-new-connection-start,
+.d3-new-connection-guide {
+  display: none;
+}

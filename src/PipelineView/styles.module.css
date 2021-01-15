@@ -1,0 +1,3 @@
+.root {
+  height: calc(100vh - 46px - 64px - 64px);
+}
