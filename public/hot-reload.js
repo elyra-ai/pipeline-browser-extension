@@ -1,4 +1,4 @@
-const POLLING_INTERVAL = 1_000;
+const POLLING_INTERVAL = 1000;
 
 async function getManifestTimestamp(dir) {
   return new Promise((resolve) => {
