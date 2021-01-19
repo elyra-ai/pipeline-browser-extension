@@ -16,7 +16,7 @@ function useBlockIntrusiveCanvasEvents() {
     // `false`.
     const options = { passive: false, capture: true };
     el?.addEventListener("contextmenu", blockIntrusiveCanvasEvents, options);
-    el?.addEventListener("mousewheel", blockIntrusiveCanvasEvents, options);
+    el?.addEventListener("wheel", blockIntrusiveCanvasEvents, options);
 
     // The canvas steals focus on mount, which causes a jarring scroll to the
     // element. Scrolling to (0, 0) seems to prevent that, but this is really
@@ -25,7 +25,7 @@ function useBlockIntrusiveCanvasEvents() {
 
     return () => {
       el?.removeEventListener("contextmenu", blockIntrusiveCanvasEvents);
-      el?.removeEventListener("mousewheel", blockIntrusiveCanvasEvents);
+      el?.removeEventListener("wheel", blockIntrusiveCanvasEvents);
     };
   }, []);
 
