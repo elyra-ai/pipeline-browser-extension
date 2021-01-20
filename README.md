@@ -6,8 +6,9 @@ This is the source code for the Elyra Pipeline Viewer extension.
 
 ## Installation
 
-The easiest way to install this extension:
-* [Chrome web store](https://chrome.google.com/webstore/detail/elyra-pipeline-viewer/blomglkicbbfkbmppeljdnnakajnpnop)
+The easiest way to install this extension is through your browser's web store:
+* [Chrome Web Store](https://chrome.google.com/webstore/detail/elyra-pipeline-viewer/blomglkicbbfkbmppeljdnnakajnpnop/)
+* [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/elyra-pipeline-viewer)
 
 ## Local development
 You can also build and install this extension from source.
