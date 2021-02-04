@@ -1,5 +1,5 @@
 {
-  "name": "elyra-pipeline-chrome-extension",
+  "name": "@elyra/pipeline-chrome-extension",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
